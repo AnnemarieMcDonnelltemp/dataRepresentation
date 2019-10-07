@@ -1,0 +1,34 @@
+Book.XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<Library>
+ <Technical>
+
+        <Book isbn-13=”9788120305960” >
+        <Title>The C programming langiage</Title>
+        <Author>Brian Kernighan & Dennis M Ritchie</Author>
+ </BOOK>
+ 
+        <Book isbn-13=”9781526432100” >
+        <Title>Pathophysiology and Pharmacology in Nursing</Title>
+        <Author>Sarah Ashelford, Justine Raynsford & Vanessa Taylor</Author>
+</BOOK>
+
+</Technical>     
+    
+<Cooking>
+
+        <Book isbn-13=”9781529014068” >
+        <Title>Pinch of Nom</Title>
+        <Author>Kate Allinson & Kay Fetherstone</Author>
+</BOOK>
+
+        <Book isbn-13=”9781473674264”>
+        <Title>Meals in Minutes</Title>
+        <Author>Donal Skehan</Author>
+</BOOK>
+</Cooking>
+
+   
+</Library>
+
