@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Qn3</title>
+       
+    </head>
+    <body>
+        <input id="name" type="text" value="enter name"/>
+        <br/>
+        <button onclick="buttonClicked()">Enter</button><br/>
+        <div id="output">Your Name Here</div>
+        
+        <script>
+            function buttonClicked(){
+                var output= document.getElementById('name').value
+                document.getElementById('output').innerText = output
+            }
+            
+        </script>
+    </body>
+
