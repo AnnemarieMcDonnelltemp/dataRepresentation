@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Qn5</title> 
+    </head>
+    <body>
+            <div id="div1" style="background-color: pink">
+                
+				<br/>This is Div 1, It dissappears when you click on Div 2 and shows Div 2 <br/>
+                
+				<button onclick="Div2()">Div2</button>
+            </div>
+            
+			<div id="div2" style="background-color: cyan; display: none">
+			
+                <br/>This is Div 2, It dissappears when you click on Div 1 and shows Div 1 <br/>
+                
+				<button onclick="Div1()">Div1</button>
+            </div>
+           
+		   <script>
+            function Div2(){
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "block";
+            }
+            function Div1(){
+                document.getElementById("div1").style.display = "block";
+                document.getElementById("div2").style.display = "none";
+            }
+            </script>
+                            
+    </body>
+</html>
