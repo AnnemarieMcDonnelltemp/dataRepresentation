@@ -1,0 +1,23 @@
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous">
+
+<html>
+    <head>
+        <title>lab02</title>
+    </head>
+    <body>
+        <script>
+		var jsonString='{"employees": [{"firstName": "John", "lastName": "Doe"},{ "firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]}'
+		var obj = JSON.parse(jsonString);
+        var employees=obj.employees;
+		for (employee of obj.employees){
+                console.log(employee.firstName)
+            }
+        
+    </script>
+	
+   <body>
+	
+</html>
